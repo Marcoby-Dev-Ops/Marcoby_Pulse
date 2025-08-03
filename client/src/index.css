@@ -3,12 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@import "tailwindcss";
-@import "tw-animate-css";
-/* @import "tw-animate-css"; */
-
-@custom-variant dark (&:is(.dark *));
-
 @font-face {
 	font-family: "Montserrat";
 	src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.woff2") format("woff2");
