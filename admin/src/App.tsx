@@ -10,8 +10,6 @@ import Dashboard from "./pages/Dashboard";
 import Products from "./pages/Products";
 import Orders from "./pages/Orders";
 import Users from "./pages/Users";
-import Product from "./pages/Product";
-import Order from "./pages/Order";
 
 function App() {
 	const { token } = useAdminAuthStore();
@@ -31,8 +29,6 @@ function App() {
 							<Route path="/add-product" element={<AddProduct />} />
 							<Route path="/orders" element={<Orders />} />
 							<Route path="/users" element={<Users />} />
-							<Route path="/product/:productId" element={<Product />} />
-							<Route path="/order/:orderId" element={<Order />} />
 						</Routes>
 					</SidebarInset>
 				</SidebarProvider>
